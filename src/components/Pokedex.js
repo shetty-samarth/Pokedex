@@ -4,15 +4,7 @@ import {POKEMON_API_URL, IMAGE_API_URL} from '../config/index'
 import { Box, CircularProgress, Grid } from '@material-ui/core';
 import PokeCard from './PokeCard';
 
-// const useStyles = makeStyles((theme)=>({
-//     Grid: {
-//         marginTop: "250px",
-//         backgroundColor: "black"
-//     }
-// }))
-
 function Pokedex() {
-    // const classes = useStyles();
     const [pokedata, setPokeData] = useState([]);
     useEffect(()=>{
         axios.get(POKEMON_API_URL+"?limit=800").then((response)=>{

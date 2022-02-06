@@ -59,7 +59,7 @@ componentDidMount(){
         const {classes} = this.props;
         const { pokemon } = this.state;
         if(pokemon){
-            const {name,sprites,height,weight,type} = pokemon;
+            const {name,sprites} = pokemon;
             return (
                 <div>
                     <Box className={classes.container}>
