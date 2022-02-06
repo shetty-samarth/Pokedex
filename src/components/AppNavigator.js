@@ -23,7 +23,7 @@ function AppNavigator() {
         <AppBar className={classes.AppBar} position="fixed">
             <Toolbar>
                 <Link to="/" className={classes.Link}>
-                    <Typography className={classes.Typography}>Pokedex (Click Here To View Dashboard)</Typography>
+                    <Typography className={classes.Typography}>Pokedex</Typography>
                 </Link>
             </Toolbar>
         </AppBar>
